@@ -80,7 +80,7 @@ function front(g: CanvasRenderingContext2D, card: Card, w: (typeof WORDS)["en"],
   // brand, top-left (two short lines, like "FutureTech / Summit")
   icon(g, CROSS, false, 100, 168, 64, ink);
   g.font = `500 36px ${FONT}`;
-  g.fillText("HelpCard", 190, 196);
+  g.fillText("Emergy", 190, 196);
   g.fillText("Emergency ID", 190, 238);
   g.textAlign = "right";
   g.font = `500 34px ${FONT}`;

@@ -30,7 +30,7 @@ export function CardsView({ email, cards }: { email: string; cards: SavedCard[] 
     <main className="maker">
       <header className="account-bar">
         <a className="brand" href="/">
-          <Cross className="icon-inline" /> HelpCard
+          <Cross className="icon-inline" /> Emergy
         </a>
         <div className="account-meta">
           <span>{email}</span>

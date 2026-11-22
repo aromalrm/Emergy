@@ -25,12 +25,12 @@ export const MAX = { short: 40, long: 140, contacts: 3 };
 
 /** Colours mirror app/globals.css (.t-*); `sky` is the badge's background gradient, top → bottom (lib/badgeArt.ts). */
 export const THEMES = {
-  space: { label: "Space", ink: "#ffffff", accent: "#ffd166", sky: ["#4a6fb5", "#22336e", "#121a3d"] },
+  space: { label: "Space", ink: "#ffffff", accent: "#ffd166", sky: ["#a33b48", "#6e2430", "#3a1218"] },
   dino: { label: "Dino", ink: "#1b4332", accent: "#2d6a4f", sky: ["#e9f8ec", "#c7ebd0", "#95d5b2"] },
-  ocean: { label: "Ocean", ink: "#023e8a", accent: "#0077b6", sky: ["#e4f8fc", "#bfe9f5", "#90e0ef"] },
-  rainbow: { label: "Rainbow", ink: "#3d2c5c", accent: "#ff006e", sky: ["#ffe1e1", "#f4ecff", "#d9f7ff"] },
+  ocean: { label: "Ocean", ink: "#7a1a28", accent: "#e5383b", sky: ["#fff5f6", "#f8d0d4", "#f0a8b0"] },
+  rainbow: { label: "Rainbow", ink: "#5c2433", accent: "#ff006e", sky: ["#ffe1e1", "#f8d0d4", "#f0a8b0"] },
   classic: { label: "Classic", ink: "#111111", accent: "#e5383b", sky: ["#ffffff", "#f6f6f6", "#ececec"] },
-  calm: { label: "Calm", ink: "#1d3557", accent: "#457b9d", sky: ["#f3f8fd", "#e2edf8", "#cfe0f1"] },
+  calm: { label: "Calm", ink: "#5c2424", accent: "#c44545", sky: ["#fff8f8", "#f8e4e4", "#f0d0d0"] },
 } as const;
 export type ThemeId = keyof typeof THEMES;
 

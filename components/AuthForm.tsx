@@ -35,7 +35,7 @@ export function AuthForm({ mode, nextPath }: { mode: "sign-in" | "sign-up"; next
     <main className="auth-wrap">
       <form className="auth-card" onSubmit={onSubmit}>
         <a className="brand" href="/">
-          <Cross className="icon-inline" /> HelpCard
+          <Cross className="icon-inline" /> Emergy
         </a>
         <h1>{signIn ? "Sign in" : "Create an account"}</h1>
         <p className="field-help">
