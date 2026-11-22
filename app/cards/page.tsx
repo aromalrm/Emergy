@@ -5,7 +5,7 @@ import { getUser } from "@/lib/auth";
 import { listCards } from "@/lib/cards";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Your cards · HelpCard" };
+export const metadata: Metadata = { title: "Your cards · Emergy" };
 
 export default async function CardsPage() {
   const user = await getUser();

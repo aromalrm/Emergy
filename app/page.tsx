@@ -120,7 +120,7 @@ export default function Maker() {
     }
   };
   const ready = card.name.trim() && card.contacts.some((c) => c.phone.trim());
-  const shareText = `I made a free emergency QR card: blood group, allergies and who to call, in one scan. Make one for your family: ${origin}`;
+  const shareText = `I made a free Emergy card: blood group, allergies and who to call, in one scan. Make one for your family: ${origin}`;
   const saveCard = async () => {
     if (!ready || saving) return;
     setSaving(true);
@@ -154,7 +154,7 @@ export default function Maker() {
   return (
     <>
     <section className="hero">
-      <a className="logo" href="#"><Cross className="icon-inline" /> HelpCard</a>
+      <a className="logo" href="#"><Cross className="icon-inline" /> Emergy</a>
       {user !== undefined && (
         <nav className="nav" aria-label="Account">
           {user ? <a href="/cards">Your cards</a> : <a href="/sign-in">Sign in</a>}
@@ -393,9 +393,9 @@ export default function Maker() {
       <footer className="foot">
         <a className="ph-badge" href="https://www.producthunt.com/products/helpcard?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-helpcard" target="_blank" rel="noopener noreferrer">
           {/* eslint-disable-next-line @next/next/no-img-element */}
-          <img alt="HelpCard - a free emergency QR card | Product Hunt" width={250} height={54} src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1323277&theme=light&t=1795180121825" />
+          <img alt="Emergy - a free emergency QR card | Product Hunt" width={250} height={54} src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1323277&theme=light&t=1795180121825" />
         </a>
-        HelpCard is free. It is not a medical service: in an emergency in India, call 112. Check the card&apos;s details
+        Emergy is free. It is not a medical service: in an emergency in India, call 112. Check the card&apos;s details
         yourself, and make a new one when they change.
       </footer>
     </main>

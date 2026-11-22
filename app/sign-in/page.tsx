@@ -4,7 +4,7 @@ import { AuthForm } from "@/components/AuthForm";
 import { getUser, safeNext } from "@/lib/auth";
 
 export const dynamic = "force-dynamic";
-export const metadata: Metadata = { title: "Sign in · HelpCard" };
+export const metadata: Metadata = { title: "Sign in · Emergy" };
 
 export default async function SignInPage({ searchParams }: { searchParams: Promise<{ next?: string }> }) {
   const nextPath = safeNext((await searchParams).next);

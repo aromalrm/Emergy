@@ -19,12 +19,12 @@ button, input, select, textarea { font: inherit; color: inherit; }
 a { color: inherit; }
 
 /* ---- card themes (badge, card, sticker, scanned page) ---- */
-.t-space   { --bg: #1d2a5b; --ink: #fff;    --accent: #ffd166; --deco: radial-gradient(#ffffffcc 1px, transparent 1.6px) 0 0 / 22px 22px, radial-gradient(#ffd16688 1.2px, transparent 2px) 11px 7px / 31px 31px, linear-gradient(160deg, #3b5998 0%, #1d2a5b 55%, #121a3d 100%); }
+.t-space   { --bg: #6e2430; --ink: #fff;    --accent: #ffd166; --deco: radial-gradient(#ffffffcc 1px, transparent 1.6px) 0 0 / 22px 22px, radial-gradient(#ffd16688 1.2px, transparent 2px) 11px 7px / 31px 31px, linear-gradient(160deg, #a33b48 0%, #6e2430 55%, #3a1218 100%); }
 .t-dino    { --bg: #d8f3dc; --ink: #1b4332; --accent: #2d6a4f; --deco: radial-gradient(circle at 30% 30%, #95d5b2 0 6px, transparent 7px) 0 0 / 46px 46px, radial-gradient(#b7e4c7 0 3px, transparent 4px) 23px 23px / 46px 46px; }
-.t-ocean   { --bg: #caf0f8; --ink: #023e8a; --accent: #0077b6; --deco: radial-gradient(circle at 50% 120%, transparent 14px, #90e0ef 15px 17px, transparent 18px) 0 0 / 34px 18px; }
-.t-rainbow { --bg: #fff;    --ink: #3d2c5c; --accent: #ff006e; --deco: linear-gradient(135deg, #ffadad55 0 16%, #ffd6a555 16% 33%, #fdffb655 33% 50%, #caffbf55 50% 66%, #9bf6ff55 66% 83%, #bdb2ff55 83%); }
+.t-ocean   { --bg: #fde8ea; --ink: #7a1a28; --accent: #e5383b; --deco: radial-gradient(circle at 50% 120%, transparent 14px, #f3a3ab 15px 17px, transparent 18px) 0 0 / 34px 18px; }
+.t-rainbow { --bg: #fff;    --ink: #5c2433; --accent: #ff006e; --deco: linear-gradient(135deg, #ffadad55 0 16%, #ffd6a555 16% 33%, #fdffb655 33% 50%, #ffc1c155 50% 66%, #f3a3ab55 66% 83%, #e5383b55 83%); }
 .t-classic { --bg: #fff;    --ink: #111;    --accent: #e5383b; --deco: none; }
-.t-calm    { --bg: #eef4fb; --ink: #1d3557; --accent: #457b9d; --deco: none; }
+.t-calm    { --bg: #fdf2f2; --ink: #5c2424; --accent: #c44545; --deco: none; }
 
 /* ---- hero: the badge on its lanyard, nothing else competing ---- */
 .hero { position: relative; min-height: 100dvh; overflow: hidden; display: flex; flex-direction: column; align-items: center; }
@@ -117,7 +117,7 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--t
 .wallet { width: 85.6mm; height: 54mm; border-radius: 3.5mm; overflow: hidden; display: flex; flex-direction: column; background: var(--deco), var(--bg); color: var(--ink); box-shadow: 0 0 0 .3mm #0000001f; }
 .wallet-top { background: var(--accent); padding: 1.6mm 3mm; }
 .badge { color: #fff; font-size: 2.6mm; letter-spacing: .04em; }
-.t-space .badge { color: #1d2a5b; }
+.t-space .badge { color: #3a1218; }
 .wallet-body { flex: 1; display: flex; gap: 2.5mm; padding: 2.4mm 3mm 2.6mm; min-height: 0; }
 .wallet-info { flex: 1; display: flex; flex-direction: column; gap: .7mm; min-width: 0; }
 .avatar { font-size: 6mm; line-height: 1; }
@@ -125,7 +125,7 @@ input:focus, select:focus, textarea:focus { outline: none; border-color: var(--t
 .wallet-name { font-size: 4.2mm; line-height: 1.1; font-weight: 500; letter-spacing: -.02em; overflow-wrap: anywhere; }
 .wallet-small { font-size: 2.5mm; }
 .blood { align-self: flex-start; background: var(--accent); color: #fff; border-radius: 1.5mm; padding: .4mm 1.6mm; font-size: 2.4mm; }
-.t-space .blood { color: #1d2a5b; }
+.t-space .blood { color: #3a1218; }
 .wallet-qr { width: 25mm; display: flex; flex-direction: column; align-items: center; gap: .6mm; font-size: 2.1mm; text-align: center; }
 .qr { background: #fff; border-radius: 1.5mm; padding: .6mm; width: 100%; aspect-ratio: 1; }
 .qr svg { display: block; width: 100%; height: 100%; }

@@ -1,6 +1,6 @@
-# HelpCard
+# Emergy
 
-A free emergency QR card: blood group, allergies, medicines and who to call. The public maker matches [helpcard.nuvolin.com](https://helpcard.nuvolin.com/). The mark is red (`#e5383b`) where that site’s icon is navy.
+A free emergency QR card: blood group, allergies, medicines and who to call. The public maker follows [helpcard.nuvolin.com](https://helpcard.nuvolin.com/), under the name Emergy. Space, Ocean, and Calm use red instead of blue.
 
 Anyone can make a card without an account. The QR code carries the details in the link after `#`, so a helper’s phone reads them locally. Sign in to save a copy, open it later, change it and print it again. Photos stay on the device and are not saved.
 

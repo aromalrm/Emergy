@@ -6,7 +6,7 @@ import "./globals.css";
 const GA = process.env.NEXT_PUBLIC_GA_ID;
 
 export const metadata: Metadata = {
-  title: "HelpCard: a free emergency QR card",
+  title: "Emergy: a free emergency QR card",
   description:
     "Make a free emergency card with a QR code: blood group, allergies, medicines and who to call. Nothing is stored. Fun themes for kids.",
 };
